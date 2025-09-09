@@ -1,13 +1,13 @@
 .particles-container {
-  position: fixed;   /* fixes it to the viewport */
+  position: fixed;   
   top: 0;
   left: 0;
-  width: 100vw;      /* full viewport width */
-  height: 100vh;     /* full viewport height */
+  width: 100vw;      
+  height: 100vh;    
   
-  z-index: 0;      /* make sure it isn’t behind everything */
+  z-index: 0;      
   overflow: hidden;
-  pointer-events: auto; /* allows clicks to pass through */
+  pointer-events: auto; 
 }
 
 .particles-container canvas {
